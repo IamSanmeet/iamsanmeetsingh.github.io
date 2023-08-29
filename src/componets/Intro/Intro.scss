@@ -1,0 +1,59 @@
+.introCointainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-inline: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  .introInformation {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 15ch;
+    width: 50em;
+    .introTitle {
+      color: #5b5b5b;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 50px;
+      letter-spacing: 0.2px;
+    }
+    .introDescription {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #5b5b5b;
+    }
+  }
+  .introImage {
+    width: 350px;
+    height: 250px;
+    margin-top: 15ch;
+  }
+  .introButtonContainer {
+    .introDownloadButton {
+      background: #eee;
+      color: #5b5b5b;
+      font-weight: bold;
+      border-radius: 50px;
+      padding: 13px 29px;
+      font-size: 14px;
+      line-height: normal;
+      overflow: hidden;
+      transition: all 0.4s ease;
+    }
+    .introNavButton {
+      background: #eee;
+      color: #5b5b5b;
+      font-weight: bold;
+      border-radius: 50px;
+      padding: 13px 29px;
+      font-size: 14px;
+      line-height: normal;
+      overflow: hidden;
+      transition: all 0.4s ease;
+    }
+  }
+}
