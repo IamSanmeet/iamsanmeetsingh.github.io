@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-inline: 150px;
+  padding-inline: 100px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
@@ -28,14 +28,14 @@
     }
   }
   .introImage {
-    width: 350px;
+    width: 380px;
     height: 250px;
     margin-top: 15ch;
+    margin-left: 30px;
   }
   .introButtonContainer {
-    .introDownloadButton {
-      background: #eee;
-      color: #5b5b5b;
+    .navButton {
+      border-style: none;
       font-weight: bold;
       border-radius: 50px;
       padding: 13px 29px;
@@ -44,16 +44,15 @@
       overflow: hidden;
       transition: all 0.4s ease;
     }
-    .introNavButton {
+    .glanceButton {
+      background-color: #5b5b5b;
+      color: #eee;
+      margin-left: 20px;
+    }
+    .downloadButton {
       background: #eee;
       color: #5b5b5b;
-      font-weight: bold;
-      border-radius: 50px;
-      padding: 13px 29px;
-      font-size: 14px;
-      line-height: normal;
-      overflow: hidden;
-      transition: all 0.4s ease;
+      padding-inline: 50px;
     }
   }
 }

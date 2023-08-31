@@ -18,8 +18,10 @@ export default function Intro() {
             underprivileged children and contributing to charity programs.
           </p>
           <div className="introButtonContainer">
-            <button className="introDownloadButton">Download Resume </button>
-            <button className="introNavButton"> At a Glance </button>
+            <button className="navButton downloadButton">
+              Download Resume{" "}
+            </button>
+            <button className="navButton glanceButton"> At a Glance </button>
           </div>
         </div>
         <div>
